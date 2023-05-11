@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    background-color: #2d3436;
+    background: linear-gradient(25deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 91.1%);
+}
+
+.calculator{
+    border: 10px rgba(0, 0, 0, 0.07);
+    padding: 20px;
+    border-radius: 16px;
+    background: transparent;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+   
+}
+
+input{
+    width: 318px;
+    height: 80px;
+    border-radius: 30px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    text-align: right;
+    color: greenyellow;
+    background: transparent;
+    cursor: pointer;
+    color: greenyellow;
+    font-size: 35px;
+    color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    
+
+}
+
+input::placeholder{
+    color: white;
+    
+
+}
+
+button{
+    border: none;
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    border-radius: 60%;
+    font-size: 23px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background: transparent;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.equal-btn{
+    background-color: rgb(255, 124, 2);
+}
+
+.operator{
+    color: rgb(53, 250, 4);
+}
+
+
+
